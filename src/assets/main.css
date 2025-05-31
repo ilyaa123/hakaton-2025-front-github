@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@theme {
+  --color-primary: #096b68;
+  --color-on-primary: #ffffff;
+  --color-secondary: #fffbde;
+  --color-on-secondary: #252525;
+  --color-background: #90d1ca;
+  --color-on-background: #252525;
+  --color-surface: #129990;
+  --color-on-surface: #ffffff;
+  --color-success: #34eb55;
+  --color-on-success: #ffffff;
+  --color-error: #fc1c2a;
+  --color-on-error: #ffffff;
+}
+
+@source inline("bg-{primary,secondary,background,surface,success,error} text-on-{primary,secondary,background,surface,success,error}");
+@source inline("rounded-{none,md,lg,xl,2xl,3xl,4xl}");
+@source inline("text-xs text-sm text-md text-base text-lg text-xl text-2xl text-3xl text-4xl text-5xl text-6xl text-7xl text-8xl text-9xl");
+@source inline("text-{left,right,center}");
+@source inline("block");
